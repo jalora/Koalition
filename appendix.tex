@@ -1,0 +1,113 @@
+\section{Proof of Utility in Equal-level Partnership Model vs Dominant LP Model}
+\begin{theorem} \label{thm:utility}
+For any merchant $i \in M$, the individual utility of merchant $i$, $\Pi_i^*$, is greater in the equal-level partnership design than that same merchant $i$'s utility, $\Pi_i$, in the dominant LP design. In other words, $\Pi_i^* > \Pi_i, \forall i \in M$.
+\end{theorem}
+%
+\begin{proof}
+The following inequality is shown to hold for all $i \in M$.
+%
+\begin{align*}
+\Pi_i^* & > \Pi_i \\
+& \sum_{k \in M} \big[\theta_{ki}a_i - \theta_{ik}(a_k c_{ik} - q_i) \big] \quad > \sum_{n \in M - N_\ell} \big[\epsilon \theta_{n i}a_i - \epsilon \theta_{i n}(a_n  c_{i n} - q_i) \big] + \sum_{j \in N_\ell} \big[\theta_{ji}a_i - \theta_{ij}(a_j c_{ij} - q_i) \big] \\
+& \sum_{k \in M - N_\ell} \big[\theta_{ki}a_i - \theta_{ik}(a_k c_{ik} - q_i) \big] + \sum_{j \in N_\ell} \big[\theta_{ji}a_i - \theta_{ij}(a_j c_{ij} - q_i) \big]  \\
+& \qquad \qquad \qquad \qquad \qquad \qquad > \epsilon\sum_{n \in M - N_\ell} \big[\theta_{n i}a_i - \theta_{i n}(a_j  c_{i n} - q_i) \big] + \sum_{j \in N_\ell} \big[\theta_{ji}a_i - \theta_{ij}(a_j c_{ij} - q_i) \big] \\
+\end{align*}
+%
+Subtracting like terms on both sides, it is clear the the following inequality holds for all $i \in M$ since $\epsilon \in (0, 1)$.
+\begin{align*}
+\sum_{k \in M - N_\ell} \big[\theta_{ki}a_i - \theta_{ik}(a_k c_{ik} - q_i) \big] \quad > \quad \epsilon\sum_{n \in M - N_\ell} \big[\theta_{n i}a_i - \theta_{i n}(a_j  c_{i n} - q_i) \big] 
+\end{align*}
+%
+Note that the above proof is for the special case where there is absolutely no switching cost in the equal-level partnership model. The result above is easily attained for the more general condition where switching costs exists between competitive merchants in the equal-level partnership model. Denote $M_c \subseteq M$ as the set of merchants $m$ that are directly competitive with merchant $i$ such that $c_{im} = c_{mi} = 1, \, \forall m \in M_c$. The following inequality must then hold.
+\begin{align*}
+\sum_{k \in M - N_\ell - M_c} \big[\theta_{ki}a_i - \theta_{ik}(a_k c_{ik} - q_i) \big] + \epsilon \sum_{m \in M_c} \big[\theta_{mi}a_i - \theta_{im}(a_m c_{im} - q_i) \big] \quad \\ 
+\geq \quad \epsilon\sum_{n \in M - N_\ell} \big[\theta_{n i}a_i - \theta_{i n}(a_j  c_{i n} - q_i) \big] 
+\end{align*}
+\end{proof}
+
+Using the result from Theorem 1, it is now possible to prove the second feature of the equal-level partnership model on the Koalition protocol.
+%
+\begin{corollary} \label{thm:welfare}
+Given $\Pi_i^* > \Pi_i, \forall i \in M$, social welfare in the equal-level partnership model is greater than social welfare in a dominant LP protocol. In other words, 
+\begin{align*}
+\sum_{i \in M} \Pi_{i}^* >  \sum_{j \in N_1} \Pi_j + \sum_{k \in N_2} \Pi_k + ... + \sum_{\ell \in N_m} \Pi_\ell
+\end{align*}
+\end{corollary}
+%
+\begin{proof}
+Since $\Pi_i^* > \Pi_i, \forall i \in M$, then
+\begin{align*}
+\sum_{i \in N_k} \Pi_i^* & > \sum_{i \in N_k} \Pi_i, \quad \forall k \in \{1,...,m\}  \\
+\sum_{i \in N_1} \Pi_{i}^* + \sum_{j \in N_2} \Pi_{j}^* + ... + \sum_{k \in N_m} \Pi_{k}^* & > \sum_{i \in N_1} \Pi_i + \sum_{j \in N_2} \Pi_j + ... + \sum_{k \in N_m} \Pi_k
+\end{align*}
+%
+Since $<N_k>_{k \in \{1,...,m\}}$ is a partition of $M$, then $\cup_{i = 1}^m = M$. Thus,
+\begin{align*}
+\sum_{i \in M} \Pi_{i}^* >  \sum_{j \in N_1} \Pi_j + \sum_{k \in N_2} \Pi_k + ... + \sum_{\ell \in N_m} \Pi_\ell
+\end{align*}
+\end{proof}
+%
+
+\section{Optimal Seigniorage}
+\begin{lemma} \label{lemma:Smax}
+The maximum seigniorage that the treasury will absorb during any period of time T is as follows.
+\begin{align*}
+S^* = p^*(1-\delta^-)(1+\alpha^-)Q_0
+\end{align*}
+\end{lemma}
+%
+\begin{proof}
+The treasury initiates a series of absorption tranches causing an incremental depletion of the seigniorage pool as follows.
+%
+\begin{align*}
+\Delta S_i^- = S_{i+1} - S_i = p^*(1-\delta^-)(1+\alpha^-)u_i 
+\end{align*}
+%
+Since $u_i = Q_i \delta^-$ hence $Q_i = Q_0(1-\delta^-)^i$, then by induction $\Delta S_i^- = p^*(1-\delta^-)(1+\alpha^-)Q_0(1-\delta^-)^i \delta$. Denote $S_{M_T}^-$ as the amount of supply absorbed after some time $T$, then it is defined as
+%
+ \begin{align*}
+S_{M_T} = \sum_{i=0}^{M_T - 1} \Delta S^-_i & = \sum_{i=0}^{M_T - 1} p^*(1-\delta^-)(1+\alpha^-)Q_0(1-\delta^-)^i\delta^- \\
+& = p^*(1-\delta^-)(1+\alpha^-)Q_0\sum_{i=0}^{M_T - 1}(1-\delta^-)^i
+\end{align*}
+\begin{equation} \label{eq:Sdeplete}
+S_{M_T}^- = p^*(1-\delta^-)(1+\alpha^-)Q_0\big( 1 - (1-\delta^-)^{M_T} \big)
+\end{equation}
+%
+where the third equality is due to the geometric series $\sum_{i=0}^{M_T - 1}(1-\delta^-)^i = \big( \frac{1 - (1-\delta^-)^{M_T}}{\delta^-}\big)$. By taking the limit $M_T \rightarrow \infty$ (\ie\ market behavior is becoming increasingly bearish) of the above equation, the maximum amount of seigniorage required to absorb the whole supply $R_0$ during a given period $T$ (denoted as $S^*$) is found.
+%
+\begin{align*}
+\lim_{M_T \to \infty} S_{M_T} & = \lim_{M_T \to \infty} p^*(1-\delta^-)(1+\alpha^-)Q_0\delta^-\big( 1 - (1-\delta^-)^{M_T} \big) \\
+& = p^*(1-\delta^-)(1+\alpha^-)Q_0 \\
+& = S^*
+\end{align*}
+\end{proof}
+
+\section{RAA Seigniorage Pool Deplete Probability Bounds}
+\begin{theorem} \label{thm:bearbounds}
+If the treasury starts period T with $\hat{S} = \epsilon S^*$ amount of seigniorage, then the probability that the treasury is depleted at the end of period T is as follows, where $\prob(deplete) = \prob(S_{M_T} \geq S_0)$.
+\begin{align*}
+& 1 - \Phi (\sign(\log_{1- \delta^-}(1-\epsilon) - \lambda^- +1) \sqrt{(2H(\lambda^-, \log_{1- \delta^-}(1-\epsilon) +1))}) \\
+& < \prob(deplete) \\
+& < 1 - \Phi (\sign(\log_{1- \delta^-}(1-\epsilon) - \lambda^-) \sqrt{(2H(\lambda^-, \log_{1- \delta^-}(1-\epsilon)))})
+\end{align*}
+\end{theorem}
+\begin{proof}
+In order to determine $\hat{S}$, it is necessary to determine the probability of any given $S_0 = \hat{S}$ being depleted, \ie\ $\prob(S_{M_T} \geq S_0)$ where $S_{M_T} = S^*(1-(1-\delta^-)^{M_T})$ is derived by combining Equations \ref{eq:Sdeplete} and \ref{eq:Smax}. The first step is to find a condition with respect to $M_T$ such that $S_{M_T} \geq S_0$, and is as follows
+%
+\begin{align*}
+S_{M_T} & \geq S_0 \\
+1 - (& 1-\delta^-)^{M_T} \geq \epsilon \\
+1 - \epsilon & \geq (1-\delta^-)^{M_T}
+\end{align*}
+\begin{equation} \label{eq:Mt}
+M_T \geq \log_{1- \delta^-} (1-\epsilon)
+\end{equation}
+%
+where the inequality flip in Equation \ref{eq:Mt} results from $\log_{1-\delta^-}$ being a strictly decreasing function. Since $M_T$ is a Poisson process with parameter, $\lambda^-$, probability bounds for Equation \ref{eq:Mt} can be found using Poisson distribution bounds derived in \cite{Short13}. Using these bounds and defining the \textit{KL divergence} equation as $H(x,y) = x - y + y\ln{\frac{y}{x}}$, the probability of the seigniorage pool being deplete during $T$ is derived as follows,
+%
+\begin{align*}
+& 1 - \Phi (\sign(\log_{1- \delta^-}(1-\epsilon) - \lambda^- +1) \sqrt{(2H(\lambda^-, \log_{1- \delta^-}(1-\epsilon) +1))}) \\
+& < \prob(M_T \geq \log_{1- \delta^-} (1-\epsilon)) = \prob(S_{M_T} \geq S_0) = \prob(deplete) \\
+& < 1 - \Phi (\sign(\log_{1- \delta^-}(1-\epsilon) - \lambda^-) \sqrt{(2H(\lambda^-, \log_{1- \delta^-}(1-\epsilon)))})
+\end{align*}
+\end{proof}

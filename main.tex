@@ -1,0 +1,59 @@
+\documentclass[a4paper, 11pt]{article}
+% URL format stuff
+\usepackage[hyphens,spaces,obeyspaces]{url}
+\usepackage{ragged2e}
+\setlength\RaggedRightParindent{\parindent} % default value of this parameter is `0pt`
+\RaggedRight 
+% Rest of the packages
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+\usepackage{fullpage} % changes the margin
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{algorithm} % must read after hyperref
+\usepackage{algorithmic}
+\usepackage{framed}
+\usepackage[sort,nocompress]{cite}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\usepackage{setspace}
+\usepackage[toc,page]{appendix}
+
+\newcommand{\etal}{\textit{et al}.}
+\newcommand{\ie}{\textit{i}.\textit{e}.}
+\newcommand{\eg}{\textit{e}.\textit{g}.}
+\newcommand{\iid}{\textit{i.i.d}.}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\sign}{\mathbb{I}}
+
+\begin{document}
+
+\title{Koalition Protocol Formulation}
+\author{John Alora, Justin Koh, Hayden Poe}
+\date{}
+\maketitle
+
+%Abstract
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+%Content
+\pagestyle{plain}
+\include{1-Background}
+%\include{2-Background}
+%\include{3-ProbDef}
+%\include{4-Algorithm}
+%\include{5-Analysis} 
+%\include{6-Experiments}
+%\include{7-Conclusions}
+\appendix
+\include{appendix}
+\include{biblio}
+\end{document}
+
