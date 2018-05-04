@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{VR16}
 Teresa Villac{\'e}-Molinero, Pedro Reinares-Lara, and Eva Reinares-Lara.
@@ -19,6 +19,44 @@ Bond loyalty report (2016).
 Us online travel overview 2017 phocuswright report.
 \newblock
   \url{https://www.traveltrends.biz/ttn555-otas-increase-market-share-at-suppliers-expense/}.
+
+\bibitem{BTC08}
+S~Nakamoto.
+\newblock Bitcoin: A peer-to-peer electronic cash system.
+\newblock \url{https://bitcoin.org/bitcoin.pdf}, 2008.
+
+\bibitem{PR17}
+John Prpi{\'c}.
+\newblock Unpacking blockchains.
+\newblock arXiv preprint arXiv:1703.06117, 2017.
+
+\bibitem{Wood14}
+Gavin Wood.
+\newblock Ethereum: A secure decentralised generalised transaction ledger.
+\newblock Ethereum Project Yellow Paper 151, 2014.
+
+\bibitem{HL16}
+Ibm hyperledger fabric.
+\newblock \url{https://www.hyperledger.org/resources/publications}.
+
+\bibitem{Coco17}
+Microsoft coco framework.
+\newblock
+  \url{https://github.com/Azure/coco-framework/blob/master/docs/Coco%20Framework%20whitepaper.pdf},
+  2017.
+
+\bibitem{MC16}
+Gideon Greenspan.
+\newblock Multichain private blockchain - white paper.
+\newblock \url{https://www.multichain.com/download/MultiChain-White-Paper.pdf}.
+
+\bibitem{NEM}
+Nem - distributed ledger technology.
+\newblock \url{http://docs.nem.io/en}.
+
+\bibitem{Cardano}
+Cardano.
+\newblock \url{https://cardanodocs.com/}.
 
 \bibitem{Short13}
 Michael Short.

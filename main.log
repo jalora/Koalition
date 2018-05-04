@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2018 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2018 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -326,24 +326,37 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+<images/KOAlogo.png, id=1, 124.3044pt x 139.722pt>
+File: images/KOAlogo.png Graphic file (type png)
+ <use images/KOAlogo.png>
+Package pdftex.def Info: images/KOAlogo.png used on input line 44.
+(pdftex.def)             Requested size: 135.89174pt x 152.75446pt.
+
+<images/KOAbanner.png, id=3, 210.5466pt x 30.3534pt>
+File: images/KOAbanner.png Graphic file (type png)
+
+<use images/KOAbanner.png>
+Package pdftex.def Info: images/KOAbanner.png used on input line 44.
+(pdftex.def)             Requested size: 135.89174pt x 19.5919pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 39.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 44.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 (./abstract.tex) [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/KOAlogo.png> <./images/KOAbanner.png>]
 \openout2 = `1-Background.aux'.
 
  (./1-Background.tex
@@ -354,7 +367,38 @@ On-line Travel Agen-cies (OTAs). OTAs
 
 [2
 
-]) [3]
+] [3]
+Overfull \hbox (2.94792pt too wide) in paragraph at lines 29--31
+\OT1/cmr/m/n/10.95 Blockchain is a novel tech-nol-ogy that can ad-dress many of
+ the pit-falls of cen-tral-ized databases. 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 41.
+
+<images/blockchains.png, id=23, 469.755pt x 316.5426pt>
+File: images/blockchains.png Graphic file (type png)
+
+<use images/blockchains.png>
+Package pdftex.def Info: images/blockchains.png used on input line 43.
+(pdftex.def)             Requested size: 317.07614pt x 213.66187pt.
+ [4]
+<images/dapps.png, id=29, 471.2004pt x 352.6776pt>
+File: images/dapps.png Graphic file (type png)
+ <use images/dapps.png>
+Package pdftex.def Info: images/dapps.png used on input line 51.
+(pdftex.def)             Requested size: 317.07614pt x 237.32599pt.
+
+Overfull \hbox (20.31294pt too wide) in paragraph at lines 47--54
+[]\OT1/cmr/m/n/10.95 The ad-vent of Bit-coin has helped spawn more ad-vanced bl
+ockchain-based plat-forms. Ethereum 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./images/blockchains.png>]) [6 <./images/dapps.png>]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -362,7 +406,7 @@ Overfull \hbox (26.03532pt too wide) in paragraph at lines 14--14
 []  
  []
 
-[4
+[7
 
 
 ]
@@ -373,12 +417,12 @@ mm/m/it/10.95 deplete\OT1/cmr/m/n/10.95 ) =
  []
 
 
-LaTeX Warning: Reference `eq:Smax' on page 5 undefined on input line 95.
+LaTeX Warning: Reference `eq:Smax' on page 8 undefined on input line 95.
 
-[5]) [6]
+[8]) [9]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl)) [7
+ (./biblio.tex (./main.bbl)) [10
 
 
 
@@ -389,13 +433,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3331 strings out of 493117
- 45119 string characters out of 6135433
- 114501 words of memory out of 5000000
- 6679 multiletter control sequences out of 15000+600000
+ 3366 strings out of 493117
+ 45668 string characters out of 6135433
+ 114548 words of memory out of 5000000
+ 6708 multiletter control sequences out of 15000+600000
  12833 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,26p,1932b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,26p,2198b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -413,10 +457,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (7 pages, 202362 bytes).
+Output written on main.pdf (10 pages, 855080 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
