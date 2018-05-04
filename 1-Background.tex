@@ -44,14 +44,95 @@ The security foundations of blockchains rely on asymmetric cryptography and dist
     \caption{Overview of How Blockchains Work} \label{fig:btcfigure}
 \end{figure}
 
-The advent of Bitcoin has helped spawn more advanced blockchain-based platforms. Ethereum \cite{Wood14} is one of these platforms, which allows the implementation of so called smart contracts-- computer programs that control digital assets on the blockchain through a set of arbitrary rules. Smart contracts allow for the complete automation of processes requiring a TTP such as trade agreements, crowdfunding, and redemption of loyalty points. Decentralized applications (Dapps) are client-side applications that allow participants in the blockchain to interact with smart contracts. Dapps and smart contracts enable a dynamic environment for the interaction between participants on the network. Figure \ref{fig:dapps} illustrates the interaction between Dapps and smart contracts.
+The advent of Bitcoin has helped spawn more advanced blockchain-based platforms. Ethereum \cite{Wood14} is one of these platforms, which allows the implementation of so called smart contracts-- computer programs that control digital assets on the blockchain through a set of arbitrary rules. Smart contracts allow for the complete automation of processes requiring a TTP such as trade agreements, crowdfunding, and redemption of loyalty points. Decentralized applications (Dapps) are client-side applications that allow participants in the blockchain to interact with smart contracts. Dapps and smart contracts enable a dynamic environment for the interaction between participants on the network. %Figure \ref{fig:dapps} illustrates the interaction between Dapps and smart contracts.
 %
-\begin{figure}[h] % use "t!" to force the float to start the float at top of page
-    \centering
-        \includegraphics[keepaspectratio, width=0.7\textwidth]{images/dapps.png}
-    \caption{Interaction between Dapps and Smart Contracts} \label{fig:dapps}
-\end{figure}
+%\begin{figure}[h] % use "t!" to force the float to start the float at top of page
+%    \centering
+%        \includegraphics[keepaspectratio, width=0.7\textwidth]{images/dapps.png}
+%    \caption{Interaction between Dapps and Smart Contracts} \label{fig:dapps}
+%\end{figure}
 
 Blockchains have seen tremendous growth since the introduction of Bitcoin, and the technology's development has accelerated due to increased adoption by startups and industry alike. For example, the Ethereum project continues to grow as it attempts to solve industry concerns about scaling, customer privacy, and regulation. Alternative blockchain-based platforms such as IBM's Hyperledger Fabric \cite{HL16}, Microsoft's Coco Framework \cite{Coco17}, Multichain \cite{MC16}, and NEM \cite{NEM} address the problem of scaling and customer privacy through permissioned or private blockchains. While these platforms handle a narrower range of use cases, they address some of the major problems raised by industry. Projects, such as Cardano \cite{Cardano}, aim to solve these problems while preserving the complexity of applications that can be run on the blockchain.
 
 \subsubsection{Permissionless vs. Permissioned Blockchains}
+
+The key design consideration for any blockchain-based protocol is whether to use a permissionless (e.g. Ethereum and Bitcoin) or a permissioned (e.g. Hyperledger Fabric and Multichain) blockchain. In a permissionless blockchain, chain consensus is achieved by all the users running the protocol, compared to a permissioned blockchain, where consensus is done by a small set of trusted users. While permissionless blockchains have high a degree of decentralization, the development of permissioned solutions was a response to the failure of existing, permissionless blockchains to meet several key requirements: high transaction throughput, confidentiality, and computational efficiency \cite{Vitalik15}. Furthermore, the cryptocurrencies of protocols in permissioned blockchains are not subject to speculation in the open market, establishing them as strictly functional assets in the protocol. There is a limited tradespace between these variables that an existing public blockchain may fail to support, hence, many companies have chosen to adopt permissioned blockchains. Table \ref{table:blockchaintypes} summarizes each of the two platforms' characteristics.
+%
+\begin{table}[h]
+\centering
+ \begin{tabular}{|c | c | c |} 
+ \hline
+  &  Permissionless Blockchain & Permissioned Blockchain \\ 
+ \hline
+ Throughput & Low & High  \\
+ \hline
+ Latency & Low & Medium \\
+ \hline
+ Number of Readers & High & High \\
+ \hline
+Number of Writers & High & Low \\
+ \hline
+ Centrally Managed & No & Yes \\
+ \hline
+\end{tabular}
+\caption{Differences Between Permissionless and Permissioned Blockchains} \label{table:blockchaintypes}
+\end{table}
+
+While permissioned blockchains are regarded as an industry solution, permissionless blockchains enjoy first mover's advantage in terms of community and development maturity. In fact, many permissioned blockchains draw insights from Ethereum's open-source development and some, such as J.P. Morgan's Quorum \cite{Quorum16}, have even built permissioned platforms on top of the project's code base. Also, the community of these existing platforms (such as Bitcoin and Ethereum) as well as communities of newer projects (such as Cardano) are providing elegant solutions for most, if not all, of industry's concerns. Concerns regarding lack of confidentiality and computational efficiency in permissionless blockchains are also being addressed. Implementation of zero-proof knowledge will allow for confidential transaction of metadata on the blockchain. Off-chain execution of smart contracts (\eg\ Bitcoin's Lightning Network \cite{Poon16}) will reduce computation on the blockchain while enabling efficient micro-transactions. Transition from Proof-of-Work to the Proof-of-Stake (PoS) consensus mechanism (Ethereum's Casper \cite{Vitalik17} and Cardano's Ouroboros \cite{Kiayias17}) will reduce the required computational resources for chain consensus. In light of these developments, while permissioned blockchains seem to currently have an advantage over the permissionless platforms, this technological gap will close in the near future. Accounting for the fact that the biggest public blockchains have active communities that perpetuate the growth and development of their respective platforms, it is clear that that this gap will close rapidly and permissionless blockchains will become the industry-standard. 
+
+%With Koalition?s vision of the protocol?s features in mind (see Section II), the flowchart in Figure 3 from Wust and Gervais? ?Do You Need a Blockchain?? was used to determine which blockchain platform to adopt [21].
+
+\subsection{Blockchaining Loyalty}
+
+The widespread variety of LPs that are available to consumers has created a disorganized multi-currency environment. This environment is characterized by cumbersome exchange rates among partners, fragmented points collection among consumers, and limited marketing opportunities, effectively inhibiting customer experience and company profitability. This flailing ecosystem is what drives account inactivity and low redemption rates in LPs across all industries. As it stands, LPs are ripe for a disruptive protocol that makes them easier to use. The Koalition protocol would enable a fluid, interoperable environment where points are easily transferred and redeemed (frictionless), enable rapid addition of new partners without increasing complexity (inclusion), and enable more sophisticated cooperative marketing strategies that allow companies to generate even more incremental share.
+
+Blockchain is the technology poised to be the foundation for this protocol \textbf{[16][17][18]}. By nature, centralized databases and TTPs introduce friction by limiting interoperability and inclusion. Implementation of a fluid and interoperable LP environment using centralized solutions is not scalable due to the tremendous amounts of complexity and cost required. Blockchain solves this scalability problem because it is a distributed database with multiple non-trusting writers that enables complex interactions of transactions. In other words, it enables an environment where participants can transact with each other freely and securely, while managing the protocol that enables this, all without an intermediary. Koalition envisions a LP protocol with the following features:
+%
+\begin{itemize}
+\item{Frictionless transfer and redemption of LP-specific points on a single platform using a unicurrency.}
+\item{Enhanced customer experience by easing management of LPs through a universal rewards wallet.}
+\item{Increased inclusion by enabling the seamless addition and maintenance of loyalty partnerships.}
+\item{Reduced merchant liability by increasing redemption options and unlocking inherent value of points.}
+\item{Increased marketing opportunities through greater consumer data fidelity and more complex data analytics.}
+\item{More sophisticated LP schemes that cater to the wants and needs of customers.}
+\item{Volatility control will increase transactional value by removing asset speculation through token value stability.}
+	\begin{itemize}
+	\item{This eliminates a major concern faced by deflationary cryptocurrencies by encouraging the redemption of tokens as opposed to using it solely as an investment asset.}
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{A Permissionless Blockchain Solution to Loyalty}
+
+This section justifies why a permissionless blockchain as a platform for loyalty programs is the best solution. As part of the discussion, a flowchart developed by Wust and Gervais in \cite{} is used (refer to Figure \ref{fig:decisionchart}). The purpose of the flowchart is to determine whether a blockchain is warranted for a specific use case and if so, what type. As discussed earlier, adoption of a blockchain-based solution mitigates the complexity and cost of centralized (and hence TTP) solutions, enabling a rich LP environment that promotes frictionless transactions, inclusion, and interoperability. Based on this, the first three steps in the flowchart are fulfilled, leading to the key design question: are all writers known? It turns out that by allowing all writers to not be known, a blockchain LP can be positioned for the future to scale as the number of users increase. More precisely, as the major public blockchains introduce parallel task execution (\ie\ sharding) and data compression, throughput will increase as more participants join the network. This is highly desirable as it promotes further network growth and disintermediation-- the participants who use the database, manage the database. This is the opposite of the current state of the art, where increasing network effects in permissionless blockchains reduces throughput and increases latency (see Table \ref{table:blockchaintypes}). While the current lack of scalability has driven companies to prefer permissioned blockchains, in order for a blockchain LP protocol to scale in the future it must first be implemented on a permissionless blockchain. 
+
+Permissionless blockchains like Ethereum and NEM already have ready-to-use infrastructure with significant developer communities which eliminates the need to create a brand new platform.  This is not the case with most permissioned chains that require significant infrastructure development just to ensure consensus. Furthermore, permissionless blockchains already have many active users \textbf{expand this}.
+%
+\begin{figure}[t!] % use "t!" to force the float to start the float at top of page
+    \centering
+        \includegraphics[keepaspectratio, width=0.7\textwidth]{images/decisionchart.png}
+    \caption{``Do You Need a Blockchain?" Decision Flow Chart} \label{fig:decisionchart}
+\end{figure}
+
+\subsection{Cryptocurrency Price Stability}
+The extreme price volatility of cryptocurrencies poses a main challenge for their widespread adoption. This volatility is a result of the nascent market's highly speculative nature driven by the market's expectation of substantial demand in the future. Speculation in coin demand translates to change in coin price, making price volatility proportional to demand volatility. Furthermore, the inelastic coin supply schemes adopted by most cryptocurrencies do nothing to dampen the effect of change in coin demand on the coin's price. This is a well-known problem and Satoshi Nakamoto (the inventor of Bitcoin) himself has admitted to the inadequacy of an inelastic supply in meeting rising demand \cite{Satoshi08}.
+%
+\begin{framed}
+\begin{quote}
+\textit{``The fact that new coins are produced means the money supply increases by a planned amount, but this does not necessarily result in inflation. If the supply of money increases at the same rate that the number of people using it increases, prices remain stable. If it does not increase as fast as demand, there will be deflation and early holders of money will see its value increase."}
+\end{quote}
+\end{framed}
+
+As blockchain becomes more mainstream, there has been a greater urgency within the community to develop cryptocurrencies that are more price stable. These so called \textit{stable coins} attempt to peg their value to a more stable asset, such as a fiat currency, and are becoming more prominent. These stable coins fall into one of three main stabilization schemes: fiat-collateralized, crypto-collateralized, and non-collateralized. 
+
+Fiat-collateralized stable coins are conceptually easy to understand: every one stable coin is redeemable for \$1. In other words, a user must deposit \$1 into the stable coin's fiat bank account in order for the stable coin's treasury to mint and issue one stable coin to the user. Whenever the user liquidates their stable coin for fiat, the treasury will destroy their stable coin and the user will be wire transferred the equivalent fiat. The benefits of this scheme is that it is completely price stable as  each stable coin is backed by 1 unit of fiat currency and is the simplest to implement. Its drawbacks are that it is centralized, expensive to maintain (due to high regulation and frequent audits), and is constrained by legacy payment rails. Tether \cite{Tether16} is an example of a fiat-collateralized stable coin and has done well in maintaining a peg to the USD.
+
+Crypto-collateralized stable coins such as BitShare's BitUSD \cite{BTS15} and MakerDao's Dai \cite{MDao17} are similar to fiat-collateralized schemes except that collateral is held in another cryptocurrency instead of fiat. Since the collateral is a cryptocurrency that also experiences price volatility, these schemes require over-collateralization of the stable coin in order to absorb price fluctuations. Take the following example.
+%
+\begin{quote}
+Hayden must deposit \$100 worth of Ether in order to be issued 50 \$1 stable coins. If the price of Ether drops 25\%, Hayden's remaining Ether collateral worth \$75 will still be able to back the price of each stable coin to \$1 each. If Hayden sells his 50 stable coins to John for \$50 in Ether, and John chooses to liquidate the 50 stable coins, then the treasury will give John \$50 in Ether and Hayden the remaining collateral of \$25 worth of Ether.
+\end{quote}
+%
+As an incentive for the stable coin issuers, these schemes pay out interest to those who pay the necessary collateral to issue stable coin. While this scheme works great in a bull market, its ability to absorb significant price declines in the underlying crypto-collateral is limited by the amount of over-collateralization required by the scheme. If the crypto-collateral price drops significantly, there may not be enough collateral to back the price of the stable coin. In these cases, crypto-collateralized schemes will automatically liquidate and destroy users' stable coin for their underlying collateral. So while crypto-collateralized schemes are more decentralized and are able to quickly liquidate their stable coin into the underlying collateral, these schemes are less price stable, more complex, and are more inefficient with respect to use of capital than fiat-collateralized schemes. 
+
+Instead of pegging a stable coin to its collateralized assets' price, non-collateralized stable coins utilize an algorithmic treasury (via smart contract) that has a singular monetary policy--ensure the stable coin trades at a fixed fiat price. This scheme borrows ideas from the \textit{Hayek Money} approach proposed by Ametrano in \cite{Hayek16} which advocates for an elastic supply and a protocol that rebases wallet balances proportional to the change in stable coin price. Non-collateralized stabilization schemes also have some semblance of buffer stock schemes--a program that stores a certain amount of commodity when the price is low, and to release a certain amount of the stored commodity when the price is high. Buffer stocks are well-studied (see \cite{An13}) and \cite{Ath08} and have been widely used in developing countries to to help stabilize food prices and ensure food security. The merging of these two concepts combined with a new scheme called \textit{Seigniorage Shares} by Robert Sams \cite{Sams15} has served as the foundation for non-collateralized stabilization schemes. The idea behind non-collateralized stable coins is simple: as the price of the stable coin increases, the smart contract will mint new coins and auction them out to the market until the price goes back to the desired price. The \textit{seigniorage} gained from this period will be used to buy back coins in the market to reduce supply and drive prices up. If the collected seigniorage is insufficient to buy up enough coins, the Seignorage Shares approach calls for the treasury smart contract to issue shares that entitle users (who are willing to liquidate their stable coin) to future seigniorage. The biggest challenges with non-collateralized stable coins are that it requires continual growth and is difficult to analyze with respect to safety margins for the seigniorage pool. Along with these challenges are characteristics of an ideal stable coin--one that requires no collateral and has the most promise in being decentralized. Several promising stable coins that are proposing non-collateralized stabilization schemes (or some form of it) include Fragments \cite{frg18}, Basecoin \cite{Base18}, and Sweetbridge \cite{Sweet17}.
+

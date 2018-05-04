@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2018 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 MAY 2018 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,7 +246,8 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count114
 \c@@ppsaveapp=\count115
 )
-(./main.aux (./1-Background.aux) (./appendix.aux) (./biblio.aux))
+(./main.aux (./1-Background.aux) (./2-Koalition.aux) (./3-Analysis.aux)
+(./appendix.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -261,8 +262,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 34.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -384,21 +384,174 @@ File: images/blockchains.png Graphic file (type png)
 Package pdftex.def Info: images/blockchains.png used on input line 43.
 (pdftex.def)             Requested size: 317.07614pt x 213.66187pt.
  [4]
-<images/dapps.png, id=29, 471.2004pt x 352.6776pt>
-File: images/dapps.png Graphic file (type png)
- <use images/dapps.png>
-Package pdftex.def Info: images/dapps.png used on input line 51.
-(pdftex.def)             Requested size: 317.07614pt x 237.32599pt.
-
 Overfull \hbox (20.31294pt too wide) in paragraph at lines 47--54
 []\OT1/cmr/m/n/10.95 The ad-vent of Bit-coin has helped spawn more ad-vanced bl
 ockchain-based plat-forms. Ethereum 
  []
 
+[5 <./images/blockchains.png>]
+Overfull \hbox (25.39253pt too wide) in paragraph at lines 81--82
+[]\OT1/cmr/m/n/10.95 While per-mis-sioned blockchains are re-garded as an in-du
+s-try so-lu-tion, per-mis-sion-less blockchains 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./images/blockchains.png>]) [6 <./images/dapps.png>]
+Overfull \hbox (1.15337pt too wide) in paragraph at lines 81--82
+\OT1/cmr/m/n/10.95 en-joy first mover's ad-van-tage in terms of com-mu-nity and
+ de-vel-op-ment ma-tu-rity. In fact, many 
+ []
+
+[6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+
+Overfull \hbox (0.39304pt too wide) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/10.95 Volatility con-trol will in-crease trans-ac-tional value b
+y re-mov-ing as-set spec-u-la-tion through 
+ []
+
+
+Overfull \hbox (0.78835pt too wide) in paragraph at lines 106--107
+\OT1/cmr/m/n/10.95 LP pro-to-col to scale in the fu-ture it must first be im-pl
+e-mented on a per-mis-sion-less blockchain.  
+ []
+
+[7] <images/decisionchart.png, id=41, 468.7914pt x 275.1078pt>
+File: images/decisionchart.png Graphic file (type png)
+
+<use images/decisionchart.png>
+Package pdftex.def Info: images/decisionchart.png used on input line 112.
+(pdftex.def)             Requested size: 317.07614pt x 186.07594pt.
+ [8 <./images/decisionchart.png>] [9]) [10]
+\openout2 = `2-Koalition.aux'.
+
+
+(./2-Koalition.tex <images/KOAeconomy.png, id=52, 432.1746pt x 300.6432pt>
+File: images/KOAeconomy.png Graphic file (type png)
+
+<use images/KOAeconomy.png>
+Package pdftex.def Info: images/KOAeconomy.png used on input line 11.
+(pdftex.def)             Requested size: 317.07614pt x 220.58244pt.
+ [11
+
+
+ <./images/KOAeconomy.png>]) [12]
+\openout2 = `3-Analysis.aux'.
+
+
+(./3-Analysis.tex [13
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[][]\OT1/cmr/m/n/9 Better to put con-di-tion in terms of LM?-- Need to find out
+: Do cus-tomers spend more money with more
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\OT1/cmr/m/n/9 mem-bers in a coali-tion (this af-fect $\OML/cmm/m/it/9 a[]$\OT1
+/cmr/m/n/9 )? Do they be-come more fre-quent vis-i-tors at any given mer-chant 
+in a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\OT1/cmr/m/n/9 coali-tion? (this af-fects $\OML/cmm/m/it/9 ^^R[]$\OT1/cmr/m/n/9
+ ) Do they gain more "new" cus-tomers as coali-tion in-creases? (this af-fect $
+\OML/cmm/m/it/9 a[]$\OT1/cmr/m/n/9 ). Note
+ []
+
+[14] [15] [16]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 94.
+
+<images/treasury.jpg, id=81, 722.7pt x 542.025pt>
+File: images/treasury.jpg Graphic file (type jpg)
+ <use images/treasury.jpg>
+Package pdftex.def Info: images/treasury.jpg used on input line 96.
+(pdftex.def)             Requested size: 317.07614pt x 237.80527pt.
+
+[17] [18 <./images/treasury.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[][]\OT1/cmr/m/n/9 In fact it was dis-cov-ered in [24] that buffer stock re-ser
+ves con-tain-ing a small per-cent-age of the dis-tributed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmr/m/n/9 equi-lib-rium sup-ply was suf-fi-cient in main-tain-ing price st
+a-bil-ity. In other words, if the sup-ply is close to the fun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmr/m/n/9 da-men-tal value (FV) sup-ply, a re-serve sup-ply of about $1$-$
+2$ per-cent of the FV sup-ply will be able to keep price
+ []
+
+
+Overfull \vbox (0.3304pt too high) has occurred while \output is active []
+
+
+[19] [20]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 212.
+
+
+Overfull \hbox (3.1305pt too wide) in paragraph at lines 228--230
+\OT1/cmr/m/n/10.95 a-bil-ity that the trea-sury will main-tain its seignior-age
+ pool dur-ing a given pe-riod. This is called 
+ []
+
+[21] [22]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 259.
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 274--274
+[]\OT1/cmr/m/n/10.95 Table 3: Ini-tial KOA Trea-sury Seignior-age Pool and Prob
+-a-bil-i-ties for $\OML/cmm/m/it/10.95 ^^N[] \OT1/cmr/m/n/10.95 = 0\OML/cmm/m/i
+t/10.95 :\OT1/cmr/m/n/10.95 15$ and $\OML/cmm/m/it/10.95 ^^N[] \OT1/cmr/m/n/10.
+95 =
+ []
+
+
+Overfull \hbox (27.61598pt too wide) in paragraph at lines 277--278
+\OT1/cmr/m/n/10.95 high-light-ing the ro-bust-ness of these re-spec-tive seigni
+or-age pools. Note that $\U/msb/m/n/10.95 P$\OT1/cmr/m/n/10.95 (deplete), $\U/m
+sb/m/n/10.95 P$\OT1/cmr/m/n/10.95 (replenish), 
+ []
+
+
+Overfull \hbox (25.12173pt too wide) in paragraph at lines 277--278
+\OT1/cmr/m/n/10.95 70\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 12%$ and $84\OML/c
+mm/m/it/10.95 :\OT1/cmr/m/n/10.95 49%$ of hold-ing onto its seignior-age dur-in
+g a given pe-riod. While a fiat-collateralized 
+ []
+
+[23]
+Overfull \hbox (3.05525pt too wide) in paragraph at lines 281--283
+\OT1/cmr/m/n/10.95 it will of-fer con-sumers \OT1/cmr/m/it/10.95 shares \OT1/cm
+r/m/n/10.95 to fu-ture KOA at an en-tic-ing dis-count, $\OML/cmm/m/it/10.95 []
+$ \OT1/cmr/m/n/10.95 such that $\OML/cmm/m/it/10.95 [] >> 
+ []
+
+
+Overfull \hbox (4.46884pt too wide) in paragraph at lines 284--285
+[]\OT1/cmr/m/n/10.95 The price of KOA has dropped from $$0\OML/cmm/m/it/10.95 :
+\OT1/cmr/m/n/10.95 001$ to $$0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0007$. Si
+nce the price has dropped 
+ []
+
+[24]) [25]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -406,7 +559,7 @@ Overfull \hbox (26.03532pt too wide) in paragraph at lines 14--14
 []  
  []
 
-[7
+[26
 
 
 ]
@@ -416,51 +569,61 @@ f pe-riod T is as fol-lows, where $\U/msb/m/n/10.95 P\OT1/cmr/m/n/10.95 (\OML/c
 mm/m/it/10.95 deplete\OT1/cmr/m/n/10.95 ) = 
  []
 
-
-LaTeX Warning: Reference `eq:Smax' on page 8 undefined on input line 95.
-
-[8]) [9]
+[27]) [28]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl)) [10
+ (./biblio.tex (./main.bbl
+
+LaTeX Warning: Citation `https://blog.ethereum.org/2015/08/07/on-public-and-pri
+vate-blockchains/' on page 29 undefined on input line 65.
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 90--94
+[]\OT1/cmr/m/n/10.95 Satoshi Nakamoto.  Re: Bit-coin p2p e-cash pa-per.  $\OT1/
+cmtt/m/n/10.95 http : / / satoshi . 
+ []
+
+[29
 
 
 
-] (./main.aux (./1-Background.aux)
-(./appendix.aux) (./biblio.aux))
+])) [30] (./main.aux (./1-Background.aux) (./2-Koalition.aux)
+(./3-Analysis.aux) (./appendix.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3366 strings out of 493117
- 45668 string characters out of 6135433
- 114548 words of memory out of 5000000
- 6708 multiletter control sequences out of 15000+600000
- 12833 words of font info for 50 fonts, out of 8000000 for 9000
+ 3471 strings out of 493117
+ 47214 string characters out of 6135433
+ 115670 words of memory out of 5000000
+ 6785 multiletter control sequences out of 15000+600000
+ 16053 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,26p,2198b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,15n,26p,2291b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (10 pages, 855080 bytes).
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (30 pages, 1049365 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 189 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

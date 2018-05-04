@@ -2,48 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: 1-Background.aux
+A level-1 auxiliary file: 2-Koalition.aux
 A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
 Database file #1: mybib.bib
-You've used 13 entries,
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/"
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            511 strings with 5021 characters,
-and the built_in function-call counts, 1471 in all, are:
-= -- 122
-> -- 38
-< -- 0
-+ -- 21
-- -- 8
-* -- 18
-:= -- 213
-add.period$ -- 32
-call.type$ -- 13
-change.case$ -- 13
+            634 strings with 8007 characters,
+and the built_in function-call counts, 5021 in all, are:
+= -- 427
+> -- 168
+< -- 1
++ -- 76
+- -- 40
+* -- 157
+:= -- 757
+add.period$ -- 92
+call.type$ -- 36
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 69
-empty$ -- 207
-format.name$ -- 8
-if$ -- 355
+cite$ -- 36
+duplicate$ -- 224
+empty$ -- 625
+format.name$ -- 40
+if$ -- 1184
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 2
-newline$ -- 61
-num.names$ -- 6
-pop$ -- 58
+int.to.str$ -- 36
+missing$ -- 11
+newline$ -- 167
+num.names$ -- 25
+pop$ -- 153
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 56
+skip$ -- 154
 stack$ -- 0
-substring$ -- 0
-swap$ -- 11
-text.length$ -- 0
+substring$ -- 133
+swap$ -- 41
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 6
-width$ -- 15
-write$ -- 112
+while$ -- 32
+width$ -- 38
+write$ -- 330
+(There were 2 warnings)
