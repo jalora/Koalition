@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAY 2018 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAY 2018 21:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -611,6 +611,12 @@ nce the price has dropped
  []
 
 [28]) [29]
+\openout2 = `Conclusions.aux'.
+
+ (./Conclusions.tex) [30
+
+
+]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -618,7 +624,7 @@ Overfull \hbox (26.03532pt too wide) in paragraph at lines 14--14
 []  
  []
 
-[30
+[31
 
 
 ]
@@ -628,13 +634,13 @@ f pe-riod T is as fol-lows, where $\U/msb/m/n/10.95 P\OT1/cmr/m/n/10.95 (\OML/c
 mm/m/it/10.95 deplete\OT1/cmr/m/n/10.95 ) = 
  []
 
-[31]) [32]
+[32]) [33]
 \openout2 = `biblio.aux'.
 
  (./biblio.tex (./main.bbl
 
 LaTeX Warning: Citation `https://blog.ethereum.org/2015/08/07/on-public-and-pri
-vate-blockchains/' on page 33 undefined on input line 65.
+vate-blockchains/' on page 34 undefined on input line 65.
 
 
 Underfull \hbox (badness 4168) in paragraph at lines 90--94
@@ -642,12 +648,12 @@ Underfull \hbox (badness 4168) in paragraph at lines 90--94
 cmtt/m/n/10.95 http : / / satoshi . 
  []
 
-[33
+[34
 
 
 
-])) [34] (./main.aux (./1-Background.aux) (./2-Koalition.aux)
-(./3-Analysis.aux) (./appendix.aux) (./biblio.aux))
+])) [35] (./main.aux (./1-Background.aux) (./2-Koalition.aux)
+(./3-Analysis.aux) (./Conclusions.aux) (./appendix.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -656,8 +662,8 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3538 strings out of 493117
- 48433 string characters out of 6135433
+ 3543 strings out of 493117
+ 48508 string characters out of 6135433
  116736 words of memory out of 5000000
  6844 multiletter control sequences out of 15000+600000
  16053 words of font info for 63 fonts, out of 8000000 for 9000
@@ -683,10 +689,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (34 pages, 1268783 bytes).
+Output written on main.pdf (35 pages, 1268980 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 215 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
