@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 MAY 2018 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAY 2018 21:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,24 +246,32 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count114
 \c@@ppsaveapp=\count115
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+)
 (./main.aux (./1-Background.aux) (./2-Koalition.aux) (./3-Analysis.aux)
 (./appendix.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 34.
+LaTeX Info: Redefining \selectfont on input line 39.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -329,26 +337,26 @@ e
 <images/KOAlogo.png, id=1, 124.3044pt x 139.722pt>
 File: images/KOAlogo.png Graphic file (type png)
  <use images/KOAlogo.png>
-Package pdftex.def Info: images/KOAlogo.png used on input line 44.
+Package pdftex.def Info: images/KOAlogo.png used on input line 49.
 (pdftex.def)             Requested size: 135.89174pt x 152.75446pt.
 
 <images/KOAbanner.png, id=3, 210.5466pt x 30.3534pt>
 File: images/KOAbanner.png Graphic file (type png)
 
 <use images/KOAbanner.png>
-Package pdftex.def Info: images/KOAbanner.png used on input line 44.
+Package pdftex.def Info: images/KOAbanner.png used on input line 49.
 (pdftex.def)             Requested size: 135.89174pt x 19.5919pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 44.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 49.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -402,20 +410,20 @@ Overfull \hbox (1.15337pt too wide) in paragraph at lines 81--82
  []
 
 [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
 
-Overfull \hbox (0.39304pt too wide) in paragraph at lines 98--99
+Overfull \hbox (0.39304pt too wide) in paragraph at lines 97--98
 []\OT1/cmr/m/n/10.95 Volatility con-trol will in-crease trans-ac-tional value b
 y re-mov-ing as-set spec-u-la-tion through 
  []
 
 
-Overfull \hbox (0.78835pt too wide) in paragraph at lines 106--107
+Overfull \hbox (0.78835pt too wide) in paragraph at lines 105--106
 \OT1/cmr/m/n/10.95 LP pro-to-col to scale in the fu-ture it must first be im-pl
 e-mented on a per-mis-sion-less blockchain.  
  []
@@ -424,7 +432,7 @@ e-mented on a per-mis-sion-less blockchain.
 File: images/decisionchart.png Graphic file (type png)
 
 <use images/decisionchart.png>
-Package pdftex.def Info: images/decisionchart.png used on input line 112.
+Package pdftex.def Info: images/decisionchart.png used on input line 111.
 (pdftex.def)             Requested size: 317.07614pt x 186.07594pt.
  [8 <./images/decisionchart.png>] [9]) [10]
 \openout2 = `2-Koalition.aux'.
@@ -439,11 +447,55 @@ Package pdftex.def Info: images/KOAeconomy.png used on input line 11.
  [11
 
 
- <./images/KOAeconomy.png>]) [12]
+ <./images/KOAeconomy.png>]
+<images/competitionpool.png, id=57, 469.755pt x 76.6062pt>
+File: images/competitionpool.png Graphic file (type png)
+
+<use images/competitionpool.png>
+Package pdftex.def Info: images/competitionpool.png used on input line 45.
+(pdftex.def)             Requested size: 317.07614pt x 51.70811pt.
+ [12]
+<images/switchingcost.png, id=61, 469.755pt x 74.679pt>
+File: images/switchingcost.png Graphic file (type png)
+
+<use images/switchingcost.png>
+Package pdftex.def Info: images/switchingcost.png used on input line 53.
+(pdftex.def)             Requested size: 317.07614pt x 50.40727pt.
+
+Overfull \hbox (13.01297pt too wide) in paragraph at lines 49--56
+[]\OT1/cmr/m/n/10.95 Furthermore, some mer-chants may be in the same in-dus-try
+, but are non-competitive amongst 
+ []
+
+<images/redemption.png, id=62, 469.755pt x 71.3064pt>
+File: images/redemption.png Graphic file (type png)
+
+<use images/redemption.png>
+Package pdftex.def Info: images/redemption.png used on input line 61.
+(pdftex.def)             Requested size: 317.07614pt x 48.1308pt.
+ [13 <./images/competitionpool.png> <./images/switchingcost.png> <./images/rede
+mption.png>]
+Overfull \hbox (14.78008pt too wide) in paragraph at lines 78--79
+[]\OT1/cmr/m/n/10.95 Targeted of-fers tai-lored to the cus-tomer are cre-ated t
+hrough their pur-chase data. Members- 
+ []
+
+
+Overfull \hbox (2.21794pt too wide) in paragraph at lines 88--89
+\OT1/cmr/m/n/10.95 loy-alty pro-grams have a $71%$ higher pro-por-tion of mil-l
+en-nial leisure trav-el-ers and a $44%$ higher 
+ []
+
+[14]
+Overfull \hbox (2.15718pt too wide) in paragraph at lines 90--91
+\OT1/cmr/m/n/10.95 ex-pe-ri-ence while elim-i-nat-ing book-ing fees for both cu
+s-tomers and loy-alty part-ners alike. Koali- 
+ []
+
+[15]) [16]
 \openout2 = `3-Analysis.aux'.
 
-
-(./3-Analysis.tex [13
+ (./3-Analysis.tex [17
 
 
 ]
@@ -466,18 +518,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \OML/cmm/m/it/9 a[]$\OT1/cmr/m/n/9 ). Note
  []
 
-[14] [15] [16]
+[18] [19] [20]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 94.
 
-<images/treasury.jpg, id=81, 722.7pt x 542.025pt>
+<images/treasury.jpg, id=100, 722.7pt x 542.025pt>
 File: images/treasury.jpg Graphic file (type jpg)
  <use images/treasury.jpg>
 Package pdftex.def Info: images/treasury.jpg used on input line 96.
 (pdftex.def)             Requested size: 317.07614pt x 237.80527pt.
 
-[17] [18 <./images/treasury.jpg>]
+[21] [22 <./images/treasury.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]\OT1/cmr/m/n/6 Maybe add
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\OML/cmm/m/it/6 S[]$ \OT1/cmr/m/n/6 ex-pla-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\OT1/cmr/m/n/6 na-tion here?
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][]\OT1/cmr/m/n/9 In fact it was dis-cov-ered in [24] that buffer stock re-ser
 ves con-tain-ing a small per-cent-age of the dis-tributed
@@ -499,7 +566,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 Overfull \vbox (0.3304pt too high) has occurred while \output is active []
 
 
-[19] [20]
+[23] [24]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 212.
@@ -510,18 +577,10 @@ Overfull \hbox (3.1305pt too wide) in paragraph at lines 228--230
  pool dur-ing a given pe-riod. This is called 
  []
 
-[21] [22]
+[25] [26]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 259.
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 274--274
-[]\OT1/cmr/m/n/10.95 Table 3: Ini-tial KOA Trea-sury Seignior-age Pool and Prob
--a-bil-i-ties for $\OML/cmm/m/it/10.95 ^^N[] \OT1/cmr/m/n/10.95 = 0\OML/cmm/m/i
-t/10.95 :\OT1/cmr/m/n/10.95 15$ and $\OML/cmm/m/it/10.95 ^^N[] \OT1/cmr/m/n/10.
-95 =
- []
 
 
 Overfull \hbox (27.61598pt too wide) in paragraph at lines 277--278
@@ -537,11 +596,11 @@ mm/m/it/10.95 :\OT1/cmr/m/n/10.95 49%$ of hold-ing onto its seignior-age dur-in
 g a given pe-riod. While a fiat-collateralized 
  []
 
-[23]
-Overfull \hbox (3.05525pt too wide) in paragraph at lines 281--283
-\OT1/cmr/m/n/10.95 it will of-fer con-sumers \OT1/cmr/m/it/10.95 shares \OT1/cm
-r/m/n/10.95 to fu-ture KOA at an en-tic-ing dis-count, $\OML/cmm/m/it/10.95 []
-$ \OT1/cmr/m/n/10.95 such that $\OML/cmm/m/it/10.95 [] >> 
+[27]
+Overfull \hbox (0.11702pt too wide) in paragraph at lines 281--283
+\OT1/cmr/m/n/10.95 it will of-fer con-sumers \OT1/cmr/m/it/10.95 bonds \OT1/cmr
+/m/n/10.95 to fu-ture KOA at an en-tic-ing dis-count, $\OML/cmm/m/it/10.95 []$
+ \OT1/cmr/m/n/10.95 such that $\OML/cmm/m/it/10.95 [] >> 
  []
 
 
@@ -551,7 +610,7 @@ Overfull \hbox (4.46884pt too wide) in paragraph at lines 284--285
 nce the price has dropped 
  []
 
-[24]) [25]
+[28]) [29]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -559,7 +618,7 @@ Overfull \hbox (26.03532pt too wide) in paragraph at lines 14--14
 []  
  []
 
-[26
+[30
 
 
 ]
@@ -569,13 +628,13 @@ f pe-riod T is as fol-lows, where $\U/msb/m/n/10.95 P\OT1/cmr/m/n/10.95 (\OML/c
 mm/m/it/10.95 deplete\OT1/cmr/m/n/10.95 ) = 
  []
 
-[27]) [28]
+[31]) [32]
 \openout2 = `biblio.aux'.
 
  (./biblio.tex (./main.bbl
 
 LaTeX Warning: Citation `https://blog.ethereum.org/2015/08/07/on-public-and-pri
-vate-blockchains/' on page 29 undefined on input line 65.
+vate-blockchains/' on page 33 undefined on input line 65.
 
 
 Underfull \hbox (badness 4168) in paragraph at lines 90--94
@@ -583,47 +642,51 @@ Underfull \hbox (badness 4168) in paragraph at lines 90--94
 cmtt/m/n/10.95 http : / / satoshi . 
  []
 
-[29
+[33
 
 
 
-])) [30] (./main.aux (./1-Background.aux) (./2-Koalition.aux)
+])) [34] (./main.aux (./1-Background.aux) (./2-Koalition.aux)
 (./3-Analysis.aux) (./appendix.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3471 strings out of 493117
- 47214 string characters out of 6135433
- 115670 words of memory out of 5000000
- 6785 multiletter control sequences out of 15000+600000
+ 3538 strings out of 493117
+ 48433 string characters out of 6135433
+ 116736 words of memory out of 5000000
+ 6844 multiletter control sequences out of 15000+600000
  16053 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,15n,26p,2291b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,15n,26p,2291b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (30 pages, 1049365 bytes).
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (34 pages, 1268783 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 212 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
