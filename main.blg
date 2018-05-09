@@ -4,51 +4,53 @@ The top-level auxiliary file: main.aux
 A level-1 auxiliary file: 1-Background.aux
 A level-1 auxiliary file: 2-Koalition.aux
 A level-1 auxiliary file: 3-Analysis.aux
+A level-1 auxiliary file: 4-Competition.aux
+A level-1 auxiliary file: Conclusions.aux
 A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
 Database file #1: mybib.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/"
-You've used 37 entries,
+You've used 42 entries,
             1791 wiz_defined-function locations,
-            642 strings with 8137 characters,
-and the built_in function-call counts, 5228 in all, are:
-= -- 447
-> -- 172
+            666 strings with 8825 characters,
+and the built_in function-call counts, 5812 in all, are:
+= -- 496
+> -- 187
 < -- 1
-+ -- 78
-- -- 41
-* -- 170
-:= -- 790
-add.period$ -- 95
-call.type$ -- 37
-change.case$ -- 37
++ -- 86
+- -- 44
+* -- 176
+:= -- 862
+add.period$ -- 107
+call.type$ -- 42
+change.case$ -- 42
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 233
-empty$ -- 648
-format.name$ -- 41
-if$ -- 1231
+cite$ -- 42
+duplicate$ -- 258
+empty$ -- 738
+format.name$ -- 44
+if$ -- 1380
 int.to.chr$ -- 0
-int.to.str$ -- 37
+int.to.str$ -- 42
 missing$ -- 12
-newline$ -- 172
-num.names$ -- 26
-pop$ -- 154
+newline$ -- 194
+num.names$ -- 28
+pop$ -- 186
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 157
+skip$ -- 178
 stack$ -- 0
 substring$ -- 154
-swap$ -- 42
+swap$ -- 47
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 34
-width$ -- 39
-write$ -- 341
+while$ -- 36
+width$ -- 44
+write$ -- 384
 (There were 2 warnings)

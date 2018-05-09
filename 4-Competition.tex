@@ -1,0 +1,61 @@
+\section{Existing Blockchain LP Solutions}
+
+\subsection{Chain of Points}
+
+Chain of Points \cite{COP17} claims to be a ``turn-key" decentralized LP solution via its tradable token, POINTS. Merchants are able to participate freely at no cost and with whomever to target any market segment. Customers can access their LPs through one system that is tailored to their preferences and can liquidate any unwanted rewards points for fiat currencies or other cryptocurrencies. Chain of Points is built on top of its own proof-of-stake algorithm where the weight of votes in the network are determined by how many points one has which is different from how nodes work in a proof-of-work algorithm. Ricardian smart contracts allow merchants to customize redemption methods for customers. Points issued to customers can be ``locked" to be redeemed at the issuing merchant for its promotional value or sold on the open market at its ``unlocked" value. Chain of Points makes it easier for businesses to implement traditional LPs, but leaves partnerships up to the businesses themselves. This invokes friction into the rewards economy as customers must exchange locked points for unlocked value in order to use their points somewhere else. This method also does not leverage the network effects of a fungible trans-industrial rewards currency.
+
+\subsection{Loyal Coin}
+Loyal Coin \cite{LYL17} offers an omnichannel reward program through its partnership with Appsolutely, a Philippines based existing mobile rewards application. It boasts being able to piggyback on the app's existing clientele with a customer base around 2 million with corporations in the Philippines and franchises of international brands. Loyal Coin focuses on digital loyalty through incentives such as coupons and promos, rewards in the form of its native currency, and market-determined cash value. Most functions are done in in the Loyal Wallet application that facilitates transactions. The Loyal Coin platform informs merchants on users' spending habits. Loyal coin runs on a private, permissioned database within the NEM platform, enabling extremely fast transaction times but limiting utility as smart contracts are not possible on NEM by design. Since smart contracts are not possible, Loyal Coin is a good medium of exchange, but does not provide additional utility through services that should be decentralized and autonomous.
+
+\subsection{Loyyal}
+Loyyal \cite{Loyal17} is a universal loyalty platform based on Hyperledger (a private blockchain) which allows issuers to set a fixed exchange rate with other businesses. This allows for multi-branded loyalty programs and increased redemption velocity. Therefore, Loyyal provides a controlled level of interoperability with businesses that have established relationships. Loyyal uses big data analytics to predict consumer behavior and individualize content to a consumer's needs. Merchants must rely on their current branding mechanisms using Loyyal as a supplement. Loyyal does not have a public traded token, but rather connects different LPs together through the blockchain. Although liabilities are split between participants like in traditional coalition LPs, they still exist. Furthermore, since the chain is private, decentralization and transparency is limited. Lastly, Loyyal's network is not trustless, disjointing new merchant integration.
+
+\subsection{Orioncoin}
+Orioncoin \cite{ORC17} brands itself the ``next-generation multi-tiered loyalty and marketing platform" that takes ideas from other cryptocurrencies and traditional multi-tier marketing to create a ``supercharged" LP. It currently has partnerships in place with Royale Signature Hotel, Tea Hut,  Kannika Homestay, and Cashback Worldwide. Orioncoin?s blockchain is built on a modified bitcoin clone that is decentralized and incentivizes users to participate in verification through mining. To address volatility issues, Orioncoin has a buyback guarantee that sellers get a minimum, predetermined price no matter how much the value of the coin drops. Furthermore, Orioncoin will have a user interface to include debit cards linked to blockchain ledger addresses. Though it is starting as a LP, Orion Coins end goal is to become a universal cryptocurrency. Therefore, Orioncoin?s focus on maximizing utility for merchants is limited. Though Orioncoin provides a convenient payment method for consumers, it does not robustly elaborate on how it will provide utility as a LP for merchants. There is no mention of data analytics for better loyalty levers nor a convenient interface for merchants to interact with customers. Partnerships are strategic based on industries to market the coin to become globally prevalent.
+
+\subsection{Rewards Token}
+Rewards Token \cite{RWRD17} is an ERC-20 compliant token that is earned and redeemed by customers through a network of various international retailers. Rewards Token boasts that it can be adopted by businesses without making a significant impact on their current infrastructure. When a customer makes a purchase, a certain percentage of that purchase will be be returned as Reward Tokens through Rewards.com. Customers can either keep their tokens on the Rewards.com online portal, move them to their own Ethereum wallet, or send them to an exchange to redeem for market value. Customers use the online portal to shop at various retailers or a mobile app to redeem tokens in store. When customers redeem tokens, Rewards.com exchanges the tokens for market value and merchants are paid in cash. This method increases token volatility and merchants must depend on Rewards.com to ensure that their transactions take place. Furthermore, merchants must pay Rewards.com to establish a relationship and use their services. Ultimately, although Rewards Token is blockchain based, it relies on the use of a TTP to complete these transactions.
+
+\subsection{Summary of Blockchain-based LPs}
+Table \ref{table:competition} summarizes the features of the previously covered blockchain-based LP solutions. A description of the criteria follows the table.
+%
+\begin{table}[h]
+\centering
+ \resizebox{\columnwidth}{!}{%
+ \begin{tabular}{| c | c | c | c | c | c | c |} 
+ \hline
+  &  Koalition & Chain of Points & Loyal Coin & Loyyal & Orioncoin & Rewards Token \\ 
+ \hline
+ Universal Rewards points & Yes & No & Yes & No & Yes & Yes \\
+ \hline
+ Real-time Market Value & Yes & Yes & Yes & No & Yes & Yes \\
+ \hline
+ Seamless Partnerships & Yes & No & Yes & No & No & No \\
+ \hline
+Volatility Control & Yes & No & No & Yes & No & No \\
+ \hline
+Permissioned/Permissionless & Permissionless & Permissionless & Permissioned & Permissioned & Permissionless & Permissionless \\
+\hline
+Platform & Ethereum & Native Blockchain & NEM & IBM Hyperledger & Modified BTC Clone & Ethereum \\
+ \hline
+\end{tabular}
+}
+\caption{Characteristics of Various Blockchain-Based LPs} \label{table:competition}
+\end{table}
+
+\textbf{Universal Rewards Points}: Is the solution's currency easily accepted amongst all participants in the network? \\
+\begin{itemize}
+\item Chain of Points: ``Locked" points cannot be used by consumers at a merchant other than the issuer (or its partners)\item Loyyal: Points can only be used within merchant partnerships/coalitions
+\end{itemize}
+
+\textbf{Real-Time Market Value}: Can the solution's currency be sold on an exchange at real time market value? \\\begin{itemize}
+\item Loyyal: Permissioned blockchain with no publicly traded currency 
+\end{itemize}
+\textbf{Seamless Partnerships}: Does the solution allow merchants to easily join other merchants on the network? \\\begin{itemize}
+\item Chain of Points: Merchants must choose partners and setup Ricardian smart contracts accordingly for communal points \item Loyyal: Partnerships are set up by resource intensive traditional means\item Orion Coin: There is no network of partnerships for merchants by default. Merchants can independently choose to issue Orion Coin as a reward or not, and they have to spend resources to forming their own partnerships.  \item Rewards Token: In order to join the network, merchants must pay a fee to Rewards.com
+\end{itemize}
+
+\textbf{Volatility Control}: Does the solution have a stable price to increase transaction volume in its network? \\\begin{itemize}
+\item Koalition: The solution will be an autonomously managed stable currency to encourage higher transaction rates and increased utility.\item Loyyal: With Loyyal's permissioned blockchain they can manipulate the value at will. 
+\end{itemize}
+
