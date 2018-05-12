@@ -1,16 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2018 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.12)  12 MAY 2018 11:10
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**main.tex
-(./main.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+**./main.tex
+(main.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.
+cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.c
+lo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -24,14 +25,16 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/ragged2e.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.s
+ty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everysel.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.s
+ty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip43
@@ -49,49 +52,56 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip55
 \JustifyingParindent=\skip56
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/comment/comment.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\comment\comme
+nt.sty"
 \CommentStream=\write3
-
-Excluding comment 'comment')
-(/usr/local/texlive/2014/texmf-dist/tex/latex/preprint/fullpage.sty
+ Excluding comment 'comment')
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\full
+page.sty"
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip57
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsma
+th.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amste
+xt.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsge
+n.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbs
+y.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsop
+n.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip11
@@ -112,42 +122,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip59
 \multlinetaggap=\skip60
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\grap
+hicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyv
+al.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\grap
+hics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig
+.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\
+graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count99
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\
+pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\book
+tabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen114
 \lightrulewidth=\dimen115
@@ -159,30 +168,34 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen121
 \cmidrulekern=\dimen122
 \defaultaddspace=\dimen123
-\@cmidla=\count100
-\@cmidlb=\count101
+\@cmidla=\count99
+\@cmidlb=\count100
 \@aboverulesep=\dimen124
 \@belowrulesep=\dimen125
-\@thisruleclass=\count102
-\@lastruleclass=\count103
+\@thisruleclass=\count101
+\@lastruleclass=\count102
 \@thisrulewidth=\dimen126
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amss
+ymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsf
+onts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jknappen\math
+rsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm
+.sty"
+Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks20
 \thm@bodyfont=\toks21
 \thm@headfont=\toks22
@@ -193,34 +206,39 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip63
 \dth@everypar=\toks25
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithms/algorithm.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithms\al
+gorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.s
+ty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count104
+\c@float@type=\count103
 \float@exts=\toks26
 \float@box=\box28
 \@float@everytoks=\toks27
 \@floatcapt=\box29
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.s
+ty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks28
-\c@algorithm=\count105
+\c@algorithm=\count104
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithms/algorithmic.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithms\al
+gorithmic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count106
-\c@ALC@line=\count107
-\c@ALC@rem=\count108
-\c@ALC@depth=\count109
+\c@ALC@unique=\count105
+\c@ALC@line=\count106
+\c@ALC@rem=\count107
+\c@ALC@depth=\count108
 \ALC@tlm=\skip64
 \algorithmicindent=\skip65
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/framed/framed.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\framed\framed
+.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip66
 \fb@frw=\dimen127
@@ -228,34 +246,38 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen129
 \FrameSep=\dimen130
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cite/cite.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty
+"
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
-\c@theorem=\count110
-\c@corollary=\count111
-\c@lemma=\count112
+\c@theorem=\count109
+\c@corollary=\count110
+\c@lemma=\count111
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\sets
+pace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/appendix/appendix.sty
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\appe
+ndix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count113
-\c@@ppsavesec=\count114
-\c@@ppsaveapp=\count115
+\c@@pps=\count112
+\c@@ppsavesec=\count113
+\c@@ppsaveapp=\count114
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\colo
+r.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\
+color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 137.
-)
-(./main.aux (./1-Background.aux) (./2-Koalition.aux) (./3-Analysis.aux)
-(./4-Competition.aux) (./Conclusions.aux) (./appendix.aux) (./biblio.aux))
+Package color Info: Driver file: pdftex.def on input line 147.
+) (main.aux (1-Background.aux) (2-Koalition.aux) (3-Analysis.aux)
+(4-Competition.aux) (Conclusions.aux) (appendix.aux) (biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -274,101 +296,119 @@ LaTeX Font Info:    ... okay on input line 39.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 39.
 
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
+\scratchcounter=\count115
 \scratchdimen=\dimen131
 \scratchbox=\box30
-\nofMPsegments=\count117
-\nofMParguments=\count118
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count119
+\MPscratchCnt=\count118
 \MPscratchDim=\dimen132
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks30
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epst
+opdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\in
+fwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfe
+xt.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kv
+definekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\lt
+xcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvop
+tions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kv
+setkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\et
+excmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\if
+luatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pd
+ftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\if
+pdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 <images/KOAlogo.png, id=1, 124.3044pt x 139.722pt>
 File: images/KOAlogo.png Graphic file (type png)
- <use images/KOAlogo.png>
-Package pdftex.def Info: images/KOAlogo.png used on input line 49.
+<use images/KOAlogo.png>
+Package pdftex.def Info: images/KOAlogo.png  used on input line 49.
 (pdftex.def)             Requested size: 135.89174pt x 152.75446pt.
-
 <images/KOAbanner.png, id=3, 210.5466pt x 30.3534pt>
 File: images/KOAbanner.png Graphic file (type png)
-
 <use images/KOAbanner.png>
-Package pdftex.def Info: images/KOAbanner.png used on input line 49.
+Package pdftex.def Info: images/KOAbanner.png  used on input line 49.
 (pdftex.def)             Requested size: 135.89174pt x 19.5919pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 49.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa
+.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb
+.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 49.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jknappen\ursf
+s.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-(./abstract.tex) [1
+) (abstract.tex) [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/KOAlogo.png> <./images/KOAbanner.png>]
+{C:/Users/Justin Koh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imag
+es/KOAlogo.png> <./images/KOAbanner.png>]
 \openout2 = `1-Background.aux'.
 
- (./1-Background.tex
+
+(1-Background.tex
 Overfull \hbox (1.3662pt too wide) in paragraph at lines 16--17
 \OT1/cmr/m/n/10.95 ever, travel com-pa-nies con-tinue to lose mar-ket share to 
 On-line Travel Agen-cies (OTAs). OTAs 
@@ -386,13 +426,12 @@ Overfull \hbox (2.94792pt too wide) in paragraph at lines 29--31
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 41.
 
-<images/blockchains.png, id=23, 469.755pt x 316.5426pt>
+<images/blockchains.png, id=22, 469.755pt x 316.5426pt>
 File: images/blockchains.png Graphic file (type png)
-
 <use images/blockchains.png>
-Package pdftex.def Info: images/blockchains.png used on input line 43.
+Package pdftex.def Info: images/blockchains.png  used on input line 43.
 (pdftex.def)             Requested size: 317.07614pt x 213.66187pt.
- [4]
+[4]
 Overfull \hbox (20.31294pt too wide) in paragraph at lines 47--54
 []\OT1/cmr/m/n/10.95 The ad-vent of Bit-coin has helped spawn more ad-vanced bl
 ockchain-based plat-forms. Ethereum 
@@ -412,8 +451,10 @@ Overfull \hbox (1.15337pt too wide) in paragraph at lines 81--82
 
 [6]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+
+("C:\Users\Justin Koh\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.f
+d"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
@@ -429,38 +470,35 @@ Overfull \hbox (0.78835pt too wide) in paragraph at lines 105--106
 e-mented on a per-mis-sion-less blockchain.  
  []
 
-[7] <images/decisionchart.png, id=41, 468.7914pt x 275.1078pt>
+[7]
+<images/decisionchart.png, id=40, 468.7914pt x 275.1078pt>
 File: images/decisionchart.png Graphic file (type png)
-
 <use images/decisionchart.png>
-Package pdftex.def Info: images/decisionchart.png used on input line 111.
+Package pdftex.def Info: images/decisionchart.png  used on input line 111.
 (pdftex.def)             Requested size: 317.07614pt x 186.07594pt.
  [8 <./images/decisionchart.png>] [9]) [10]
 \openout2 = `2-Koalition.aux'.
 
-
-(./2-Koalition.tex <images/KOAeconomy.png, id=52, 432.1746pt x 300.6432pt>
+ (2-Koalition.tex
+<images/KOAeconomy.png, id=51, 432.1746pt x 300.6432pt>
 File: images/KOAeconomy.png Graphic file (type png)
-
 <use images/KOAeconomy.png>
-Package pdftex.def Info: images/KOAeconomy.png used on input line 11.
+Package pdftex.def Info: images/KOAeconomy.png  used on input line 11.
 (pdftex.def)             Requested size: 317.07614pt x 220.58244pt.
  [11
 
 
  <./images/KOAeconomy.png>]
-<images/competitionpool.png, id=57, 469.755pt x 76.6062pt>
+<images/competitionpool.png, id=56, 469.755pt x 76.6062pt>
 File: images/competitionpool.png Graphic file (type png)
-
 <use images/competitionpool.png>
-Package pdftex.def Info: images/competitionpool.png used on input line 45.
+Package pdftex.def Info: images/competitionpool.png  used on input line 45.
 (pdftex.def)             Requested size: 317.07614pt x 51.70811pt.
  [12]
-<images/switchingcost.png, id=61, 469.755pt x 74.679pt>
+<images/switchingcost.png, id=60, 469.755pt x 74.679pt>
 File: images/switchingcost.png Graphic file (type png)
-
 <use images/switchingcost.png>
-Package pdftex.def Info: images/switchingcost.png used on input line 53.
+Package pdftex.def Info: images/switchingcost.png  used on input line 53.
 (pdftex.def)             Requested size: 317.07614pt x 50.40727pt.
 
 Overfull \hbox (13.01297pt too wide) in paragraph at lines 49--56
@@ -468,27 +506,26 @@ Overfull \hbox (13.01297pt too wide) in paragraph at lines 49--56
 , but are non-competitive amongst 
  []
 
-<images/redemption.png, id=62, 469.755pt x 71.3064pt>
+<images/redemption.png, id=61, 469.755pt x 71.3064pt>
 File: images/redemption.png Graphic file (type png)
-
 <use images/redemption.png>
-Package pdftex.def Info: images/redemption.png used on input line 61.
+Package pdftex.def Info: images/redemption.png  used on input line 61.
 (pdftex.def)             Requested size: 317.07614pt x 48.1308pt.
- [13 <./images/competitionpool.png> <./images/switchingcost.png> <./images/rede
-mption.png>]
+[13 <./images/competitionpool.png> <./images/switchingcost.png> <./images/redem
+ption.png>]
 Overfull \hbox (14.78008pt too wide) in paragraph at lines 78--79
 []\OT1/cmr/m/n/10.95 Targeted of-fers tai-lored to the cus-tomer are cre-ated t
 hrough their pur-chase data. Members- 
  []
 
-
-Overfull \hbox (2.21794pt too wide) in paragraph at lines 88--89
+[14]
+Overfull \hbox (2.21794pt too wide) in paragraph at lines 93--94
 \OT1/cmr/m/n/10.95 loy-alty pro-grams have a $71%$ higher pro-por-tion of mil-l
 en-nial leisure trav-el-ers and a $44%$ higher 
  []
 
-[14]
-Overfull \hbox (2.15718pt too wide) in paragraph at lines 90--91
+
+Overfull \hbox (2.15718pt too wide) in paragraph at lines 95--96
 \OT1/cmr/m/n/10.95 ex-pe-ri-ence while elim-i-nat-ing book-ing fees for both cu
 s-tomers and loy-alty part-ners alike. Koali- 
  []
@@ -496,7 +533,7 @@ s-tomers and loy-alty part-ners alike. Koali-
 [15]) [16]
 \openout2 = `3-Analysis.aux'.
 
- (./3-Analysis.tex [17
+ (3-Analysis.tex [17
 
 
 ]
@@ -514,9 +551,9 @@ in a
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\OT1/cmr/m/n/9 coali-tion? (this af-fects $\OML/cmm/m/it/9 ^^R[]$\OT1/cmr/m/n/9
- ) Do they gain more "new" cus-tomers as coali-tion in-creases? (this af-fect $
-\OML/cmm/m/it/9 a[]$\OT1/cmr/m/n/9 ). Note
+\OT1/cmr/m/n/9 coali-tion? (this af-fects $\OML/cmm/m/it/9 []$\OT1/cmr/m/n/9 )
+ Do they gain more "new" cus-tomers as coali-tion in-creases? (this af-fect $\O
+ML/cmm/m/it/9 a[]$\OT1/cmr/m/n/9 ). Note
  []
 
 [18] [19] [20]
@@ -524,12 +561,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--47
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 94.
 
-<images/treasury.jpg, id=100, 722.7pt x 542.025pt>
+<images/treasury.jpg, id=99, 722.7pt x 542.025pt>
 File: images/treasury.jpg Graphic file (type jpg)
- <use images/treasury.jpg>
-Package pdftex.def Info: images/treasury.jpg used on input line 96.
+<use images/treasury.jpg>
+Package pdftex.def Info: images/treasury.jpg  used on input line 96.
 (pdftex.def)             Requested size: 317.07614pt x 237.80527pt.
-
 [21] [22 <./images/treasury.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []\OT1/cmr/m/n/6 Maybe add
@@ -543,6 +579,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
 \OT1/cmr/m/n/6 na-tion here?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]\OT1/cmr/m/n/6 another test
  []
 
 
@@ -562,6 +603,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 \OT1/cmr/m/n/9 da-men-tal value (FV) sup-ply, a re-serve sup-ply of about $1$-$
 2$ per-cent of the FV sup-ply will be able to keep price
  []
+
+
+LaTeX Warning: Marginpar on page 23 moved.
 
 
 Overfull \vbox (0.3304pt too high) has occurred while \output is active []
@@ -614,7 +658,7 @@ nce the price has dropped
 [28]) [29]
 \openout2 = `4-Competition.aux'.
 
- (./4-Competition.tex
+ (4-Competition.tex
 Overfull \hbox (1.97456pt too wide) in paragraph at lines 11--12
 \OT1/cmr/m/n/10.95 al-lows is-suers to set a fixed ex-change rate with other bu
 si-nesses. This al-lows for multi-branded 
@@ -632,15 +676,15 @@ Overfull \hbox (5.3205pt too wide) in paragraph at lines 11--12
 ] [31]) [32]
 \openout2 = `Conclusions.aux'.
 
- (./Conclusions.tex) [33
+ (Conclusions.tex) [33
 
 
 ]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex
-Overfull \hbox (26.03532pt too wide) in paragraph at lines 14--14
-[]  
+ (appendix.tex
+Overfull \hbox (26.03532pt too wide) detected at line 14
+[]
  []
 
 [34
@@ -656,7 +700,7 @@ mm/m/it/10.95 deplete\OT1/cmr/m/n/10.95 ) =
 [35]) [36]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl
+ (biblio.tex (main.bbl
 
 LaTeX Warning: Citation `https://blog.ethereum.org/2015/08/07/on-public-and-pri
 vate-blockchains/' on page 37 undefined on input line 65.
@@ -671,45 +715,48 @@ cmtt/m/n/10.95 http : / / satoshi .
 
 
 
-] [38])) [39] (./main.aux (./1-Background.aux) (./2-Koalition.aux)
-(./3-Analysis.aux) (./4-Competition.aux) (./Conclusions.aux) (./appendix.aux)
-(./biblio.aux))
+] [38])) [39] (main.aux (1-Background.aux) (2-Koalition.aux) (3-Analysis.aux) (
+4-Competition.aux) (Conclusions.aux) (appendix.aux) (biblio.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3560 strings out of 493117
- 48748 string characters out of 6135433
- 117643 words of memory out of 5000000
- 6852 multiletter control sequences out of 15000+600000
- 16053 words of font info for 63 fonts, out of 8000000 for 9000
+ 3517 strings out of 493305
+ 51363 string characters out of 3127625
+ 114912 words of memory out of 3000000
+ 6898 multiletter control sequences out of 15000+200000
+ 16053 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,15n,26p,2291b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (39 pages, 1278698 bytes).
+ 41i,15n,26p,2293b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Justin Koh/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Justin Koh/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
+sers/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi5.pfb><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Justin Koh/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Justin
+ Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Justin Koh/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Justin Koh/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ju
+stin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.
+pfb><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Justin Koh/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Justin Koh/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/U
+sers/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb><C:/Users/Justin Koh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (39 pages, 1304251 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 227 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
