@@ -123,6 +123,12 @@ The extreme price volatility of cryptocurrencies poses a main challenge for thei
 
 As blockchain becomes more mainstream, there has been a greater urgency within the community to develop cryptocurrencies that are more price stable. These so called \textit{stable coins} attempt to peg their value to a more stable asset, such as a fiat currency, and are becoming more prominent. These stable coins fall into one of three main stabilization schemes: fiat-collateralized, crypto-collateralized, and non-collateralized. 
 
+\begin{figure}[H] % use "t!" to force the float to start the float at top of page
+	\centering
+	\includegraphics[keepaspectratio, width=0.7\textwidth]{images/Money.png}
+	\label{fig:Money}
+\end{figure}
+
 Fiat-collateralized stable coins are conceptually easy to understand: every one stable coin is redeemable for \$1. In other words, a user must deposit \$1 into the stable coin's fiat bank account in order for the stable coin's treasury to mint and issue one stable coin to the user. Whenever the user liquidates their stable coin for fiat, the treasury will destroy their stable coin and the user will be wire transferred the equivalent fiat. The benefits of this scheme is that it is completely price stable as  each stable coin is backed by 1 unit of fiat currency and is the simplest to implement. Its drawbacks are that it is centralized, expensive to maintain (due to high regulation and frequent audits), and is constrained by legacy payment rails. Tether \cite{Tether16} is an example of a fiat-collateralized stable coin and has done well in maintaining a peg to the USD.
 
 Crypto-collateralized stable coins such as BitShare's BitUSD \cite{BTS15} and MakerDao's Dai \cite{MDao17} are similar to fiat-collateralized schemes except that collateral is held in another cryptocurrency instead of fiat. Since the collateral is a cryptocurrency that also experiences price volatility, these schemes require over-collateralization of the stable coin in order to absorb price fluctuations. Take the following example.
